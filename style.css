@@ -10,10 +10,12 @@ body {
         sans-serif;
         margin: 1rem;
         background-color: var(--primary-color);
+        
 }
 
 h1,
 p {
+    margin-top: 3rem;
     text-align: center;
     font-weight: bold;
     
@@ -29,6 +31,7 @@ p {
 
 }
 
+/** header*/
 .header{
     text-align: center;
     
@@ -42,11 +45,21 @@ h3{
     
 }
 
-ul .list-list{
-    text-align: center;
+/* section */
+
+.section {
+        
+        display: block;
+        margin: 0rem 30rem;
+        max-width: 650px;
+}
+
+.list-list{
+    
     color: yellow;
 }
 .link{
    
+    margin-bottom: 1rem;
 
 }
